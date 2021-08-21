@@ -17,6 +17,6 @@ services:
             - .:/usr/app/
             - /usr/app/node_modules
         ports:
-            - 3000:3000
+            - 40000:40000
         depends_on:
             - mongodb
